@@ -50,9 +50,10 @@ public class Get16 extends DummyRestApiBaseUrl {
         Response response = given().spec(spec).when().get("/{first}");
         //  response.prettyPrint();
 
+//There are 24 employees, "Tiger Nixon" and "Garrett Winters" are among the employees
         response.then().assertThat().statusCode(200).body("data.id", hasSize(24),
                 "data.employee_name", hasItems("Tiger Nixon", "Garrett Winters"));
-
+        //The greatest age is 66
         List<Integer> ages = response.jsonPath().getList("data.employee_age");
         System.out.println(ages);
         Collections.sort(ages);
@@ -60,10 +61,39 @@ public class Get16 extends DummyRestApiBaseUrl {
         // List leri yazdirirsak kalici olarak degisir, List Mutiple dir,
         // uzerine yapilan degisiklik kalici olarak degisir
         System.out.println(ages.get(ages.size() - 1));
-        assertEquals(66, ages.get(ages.size()) - 1);
+        assertEquals(66, (int) ages.get(ages.size() - 1));
 
-        String lowestAgeEmployee = response.jsonPath().getString("data.findAll{it.employee_age==" + ages.get(0) + "}.employee_name");
+       //The name of the lowest age is "Tatyana Fitzpatrick"
+        String lowestAgeEmployee = response.jsonPath().getString
+                ("data.findAll{it.employee_age==" + ages.get(0) + "}.employee_name");
+        assertEquals("[Tatyana Fitzpatrick]", lowestAgeEmployee);
 
+        //Total salary of all employees is 6,644,770
+        List<Integer> salaries = response.jsonPath().getList("data.employee_salary");
+
+        // 1. yol
+        int totalSalaries = 0;
+        for (int w : salaries) {
+            totalSalaries += w;
+
+        }
+        System.out.println("totalSalaries = " + totalSalaries);
+        assertEquals(6644770, totalSalaries);
+
+        //2. Yol
+        int sum2 = salaries.stream().reduce(0, Integer::sum);
+        System.out.println("sum2 = " + sum2);
+        assertEquals(6644770, sum2);
+
+        //3. Yol
+        int sum3 = salaries.stream().reduce(0, Math::addExact);
+        System.out.println("sum3 = " + sum3);
+
+        assertEquals(6644770, sum3);
+
+
+        // List leri yazdirirsak kalici olarak degisir, List Mutiple dir,
+        // uzerine yapilan degisiklik kalici olarak degisir
 
         // Bir body icinde assert yapinca o soft assert olur
 
