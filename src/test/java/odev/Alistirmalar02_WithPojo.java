@@ -40,7 +40,7 @@ public class Alistirmalar02_WithPojo extends ReqresBaseUrl {
 
         // Set the Expected Data
         ReqresPojo expectedData = new ReqresPojo("morpheus", "leader");
-      //  System.out.println("expectedData = " + expectedData);
+        //  System.out.println("expectedData = " + expectedData);
 
         // Send the Url and Get the Response
         Response response = given().spec(spec).contentType(ContentType.JSON).body(expectedData)
