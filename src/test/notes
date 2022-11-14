@@ -37,3 +37,18 @@
 
 * API den alınan response'ları bilgisayara text dosyası olarak kaydetme ve doğrulama yapma.
 
+//What Is Swagger?
+*Swagger is a set of open-source tools built around the OpenAPI Specification that can help
+you design, build, document and consume REST APIs
+
+//Why use OpenAPI for API documentation
+
+*The Swagger Specification, which was renamed to the OpenAPI Specification (OAS), after the
+ Swagger team joined SmartBear and the specification was donated to the OpenAPI Initiative
+ in 2015, has become the de factor standard for defining RESTful APIs.
+
+*OAS defines an API’s contract, allowing all the API’s stakeholders, be it your development team,
+ or your end consumers, to understand what the API does and interact with its various resources,
+  without having to integrate it into their own application. This contract is language agnostic
+  and human readable, allowing both machines and humans to parse and understand what the API is
+  supposed to do.
