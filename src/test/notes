@@ -51,4 +51,4 @@ in 2015, has become the de factor standard for defining RESTful APIs.
 or your end consumers, to understand what the API does and interact with its various resources,
 without having to integrate it into their own application. This contract is language agnostic
 and human readable, allowing both machines and humans to parse and understand what the API is
-  supposed to do.
+supposed to do.
