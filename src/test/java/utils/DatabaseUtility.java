@@ -107,7 +107,7 @@ public class DatabaseUtility {
         return rowList;
     }
 
-    /**
+    /*
      * @param query
      * @param column
      * @return list of values of a single column from the result set
