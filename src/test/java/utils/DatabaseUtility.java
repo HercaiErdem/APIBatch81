@@ -61,7 +61,8 @@ public class DatabaseUtility {
         return getQueryResultList(query).get(0).get(1);
     }
 
-    /**
+
+    /*
      * @param query
      * @return returns a list of Strings which represent a row of data. If the query
      * results in multiple rows and/or columns of data, only first row will
@@ -71,7 +72,7 @@ public class DatabaseUtility {
         return getQueryResultList(query).get(0);
     }
 
-    /**
+    /*
      * @param query
      * @return returns a map which represent a row of data where key is the column
      * name. If the query results in multiple rows and/or columns of data,
