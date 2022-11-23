@@ -127,7 +127,7 @@ public class DatabaseUtility {
         }
         return rowList;
     }
-    /**
+    /*
      *
      * @param query
      * @return returns query result in a list of maps where the list represents
