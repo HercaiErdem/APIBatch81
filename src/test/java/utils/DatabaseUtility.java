@@ -158,7 +158,7 @@ public class DatabaseUtility {
         return rowList;
     }
 
-    /**
+    /*
      * @param query
      * @return List of columns returned in result set
      */
