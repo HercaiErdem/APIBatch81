@@ -46,7 +46,7 @@ public class DatabaseUtility {
         }
     }
 
-    /**
+    /*
      * @param query
      * @return returns a single cell value. If the results in multiple rows and/or
      * columns of data, only first column of the first row will be returned.
