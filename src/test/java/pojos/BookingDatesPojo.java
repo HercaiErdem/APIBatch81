@@ -17,7 +17,6 @@ public class BookingDatesPojo {
 
     public BookingDatesPojo() {
     }
-
     // 3) Public Getter ve Setter methodlarını oluşturuyoruz
     public String getCheckin() {
         return checkin;
