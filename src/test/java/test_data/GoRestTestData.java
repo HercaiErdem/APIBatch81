@@ -27,7 +27,6 @@ public class GoRestTestData {
     }
 }
 /*
-
 {
     "meta": null,
     "data": {
@@ -38,8 +37,4 @@ public class GoRestTestData {
         "status": "inactive"
     }
 }
-
-
-
-
  */
