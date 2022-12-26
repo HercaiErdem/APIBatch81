@@ -26,7 +26,7 @@
     Gson gson = new Gson();
     String jsonFromJava = gson.toJson(actual);
 
-* JSON Object
+*JSON Object
     JsonPlaceHolderTestData testObje = new JsonPlaceHolderTestData();
     JSONObject expectedRequest = testObje.setUpPostData();
 
