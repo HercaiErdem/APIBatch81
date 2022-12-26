@@ -16,7 +16,7 @@
 
 * JUnit ve TestNG Assert'leri kullanılarak doğrulama
 
-* Json Path kullanarak doğrulama
+*Json Path kullanarak doğrulama
     JsonPath() json = response.JsonPath();
 
 *De-Serialization: JSON formatını Javaya dönüştürme
