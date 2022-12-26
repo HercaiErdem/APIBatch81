@@ -19,7 +19,7 @@
 * Json Path kullanarak doğrulama
     JsonPath() json = response.JsonPath();
 
-* De-Serialization: JSON formatını Javaya dönüştürme
+*De-Serialization: JSON formatını Javaya dönüştürme
     HashMap<String, Object> actualData = response.as(HashMap.class);
 
 *Serialization: Java yapısında olan dataları JSON'a dönüştürme
