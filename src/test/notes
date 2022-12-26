@@ -42,7 +42,6 @@ dönüştürmeleri gerçekleştirmek için de kullanılır.
 you design, build, document and consume REST APIs
 
 //Why use OpenAPI for API documentation
-
 *The Swagger Specification, which was renamed to the OpenAPI Specification (OAS), after the
 Swagger team joined SmartBear and the specification was donated to the OpenAPI Initiative
 in 2015, has become the de factor standard for defining RESTful APIs.
