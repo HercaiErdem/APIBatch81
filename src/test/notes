@@ -30,7 +30,7 @@
     JsonPlaceHolderTestData testObje = new JsonPlaceHolderTestData();
     JSONObject expectedRequest = testObje.setUpPostData();
 
-* Pojo Class (Plain Old Java Object)
+*Pojo Class (Plain Old Java Object)
 
 * ObjectMapper: JSON ve POJO (Plain Old Java Objects) okuma ve yazma işlevlerinin yanı sıra
 dönüştürmeleri gerçekleştirmek için de kullanılır.
