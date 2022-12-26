@@ -35,7 +35,7 @@
 * ObjectMapper: JSON ve POJO (Plain Old Java Objects) okuma ve yazma işlevlerinin yanı sıra
 dönüştürmeleri gerçekleştirmek için de kullanılır.
 
-* API den alınan response'ları bilgisayara text dosyası olarak kaydetme ve doğrulama yapma.
+*API den alınan response'ları bilgisayara text dosyası olarak kaydetme ve doğrulama yapma.
 
 //What Is Swagger?
 *Swagger is a set of open-source tools built around the OpenAPI Specification that can help
