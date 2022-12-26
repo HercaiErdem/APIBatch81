@@ -22,7 +22,7 @@
 * De-Serialization: JSON formatını Javaya dönüştürme
     HashMap<String, Object> actualData = response.as(HashMap.class);
 
-* Serialization: Java yapısında olan dataları JSON'a dönüştürme
+*Serialization: Java yapısında olan dataları JSON'a dönüştürme
     Gson gson = new Gson();
     String jsonFromJava = gson.toJson(actual);
 
