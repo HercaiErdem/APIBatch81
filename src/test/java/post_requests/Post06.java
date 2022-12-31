@@ -1,12 +1,11 @@
 package post_requests;
 
-import base_urls.DummyRestApiBaseUrl;
-import io.restassured.http.ContentType;
-import io.restassured.response.Response;
-import org.junit.Test;
-import pojos.DummyRestApiDataPojo;
-import pojos.DummyRestApiResponseBodyPojo;
-import utils.ObjectMapperUtils;
+import base_urls.*;
+import io.restassured.http.*;
+import io.restassured.response.*;
+import org.junit.*;
+import pojos.*;
+import utils.*;
 
 import static io.restassured.RestAssured.*;
 import static org.junit.Assert.*;
