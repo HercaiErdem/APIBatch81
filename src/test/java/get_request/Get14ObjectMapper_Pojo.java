@@ -1,13 +1,12 @@
 package get_request;
 
-import base_urls.JsonplaceholderBaseUrl;
-import io.restassured.response.Response;
-import org.junit.Test;
-import pojos.JsonPlaceHolderPojo;
-import utils.ObjectMapperUtils;
-
-import static io.restassured.RestAssured.given;
-import static org.junit.Assert.assertEquals;
+import base_urls.*;
+import io.restassured.response.*;
+import org.junit.*;
+import pojos.*;
+import utils.*;
+import static io.restassured.RestAssured.*;
+import static org.junit.Assert.*;
 
 public class Get14ObjectMapper_Pojo extends JsonplaceholderBaseUrl {
 
