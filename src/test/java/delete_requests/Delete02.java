@@ -1,13 +1,12 @@
 package delete_requests;
 
-import base_urls.DummyRestApiBaseUrl;
-import io.restassured.response.Response;
-import org.junit.Test;
-import pojos.DummyRestApiDeletePojo;
-import utils.ObjectMapperUtils;
-
-import static io.restassured.RestAssured.given;
-import static org.junit.Assert.assertEquals;
+import base_urls.*;
+import io.restassured.response.*;
+import org.junit.*;
+import pojos.*;
+import utils.*;
+import static io.restassured.RestAssured.*;
+import static org.junit.Assert.*;
 
 public class Delete02 extends DummyRestApiBaseUrl {
     /*
