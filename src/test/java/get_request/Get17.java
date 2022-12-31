@@ -1,12 +1,10 @@
 package get_request;
 
-import base_urls.DummyRestApiBaseUrl;
+import base_urls.*;
 import io.restassured.response.*;
-import org.junit.Test;
-import pojos.DummyRestApiDataPojo;
-import pojos.DummyRestApiResponseBodyPojo;
-import utils.ObjectMapperUtils;
-
+import org.junit.*;
+import pojos.*;
+import utils.*;
 import static io.restassured.RestAssured.*;
 import static org.junit.Assert.*;
 
