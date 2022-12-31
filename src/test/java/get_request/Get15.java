@@ -1,12 +1,11 @@
 package get_request;
 
-import base_urls.RestfulBaseUrl;
-import io.restassured.response.Response;
-import org.junit.Test;
-import org.testng.asserts.SoftAssert;
-import pojos.BookingDatesPojo;
-import pojos.BookingPojo;
-import utils.ObjectMapperUtils;
+import base_urls.*;
+import io.restassured.response.*;
+import org.junit.*;
+import org.testng.asserts.*;
+import pojos.*;
+import utils.*;
 
 import static io.restassured.RestAssured.*;
 import static org.junit.Assert.*;
