@@ -1,12 +1,9 @@
 package get_request;
 
-import base_urls.DummyRestApiBaseUrl;
+import base_urls.*;
 import io.restassured.response.*;
 import org.junit.Test;
-
-import java.util.Collections;
-import java.util.List;
-
+import java.util.*;
 import static io.restassured.RestAssured.*;
 import static org.hamcrest.Matchers.*;
 import static org.junit.Assert.*;
