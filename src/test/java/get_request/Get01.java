@@ -1,8 +1,7 @@
 package get_request;
 
-import io.restassured.response.Response;
-import org.junit.Test;
-
+import io.restassured.response.*;
+import org.junit.*;
 import static io.restassured.RestAssured.*;
 
 public class Get01 {
