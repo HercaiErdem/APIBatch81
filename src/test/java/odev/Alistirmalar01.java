@@ -1,10 +1,10 @@
 package odev;
 
-import base_urls.AutomationExerciseBaseURL;
-import io.restassured.path.json.JsonPath;
-import io.restassured.response.Response;
-import org.junit.Test;
-import java.util.List;
+import base_urls.*;
+import io.restassured.path.json.*;
+import io.restassured.response.*;
+import org.junit.*;
+import java.util.*;
 import static io.restassured.RestAssured.*;
 import static org.junit.Assert.*;
 public class Alistirmalar01 extends AutomationExerciseBaseURL {
