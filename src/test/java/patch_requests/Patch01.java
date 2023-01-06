@@ -1,16 +1,13 @@
 package patch_requests;
 
-import base_urls.JsonplaceholderBaseUrl;
-import io.restassured.http.ContentType;
-import io.restassured.response.Response;
-import org.junit.Test;
-import test_data.JsonPlaceHolderTestData;
-
-import java.util.HashMap;
-import java.util.Map;
-
-import static io.restassured.RestAssured.given;
-import static org.testng.AssertJUnit.assertEquals;
+import base_urls.*;
+import io.restassured.http.*;
+import io.restassured.response.*;
+import org.junit.*;
+import test_data.*;
+import java.util.*;
+import static io.restassured.RestAssured.*;
+import static org.testng.AssertJUnit.*;
 
 public class Patch01 extends JsonplaceholderBaseUrl {
 
