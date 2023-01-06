@@ -3,8 +3,7 @@ package get_request;
 import io.restassured.http.*;
 import io.restassured.response.*;
 import org.junit.*;
-
-import static io.restassured.RestAssured.given;
+import static io.restassured.RestAssured.*;
 
 public class Get01b {
     /*
