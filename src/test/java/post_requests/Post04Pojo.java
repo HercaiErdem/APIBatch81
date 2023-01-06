@@ -1,15 +1,12 @@
 package post_requests;
 
-import base_urls.RestfulBaseUrl;
-import io.restassured.http.ContentType;
-import io.restassured.response.Response;
-import org.junit.Test;
-import pojos.BookingDatesPojo;
-import pojos.BookingPojo;
-import pojos.BookingResponseBodyPojo;
-
-import static io.restassured.RestAssured.given;
-import static org.junit.Assert.assertEquals;
+import base_urls.*;
+import io.restassured.http.*;
+import io.restassured.response.*;
+import org.junit.*;
+import pojos.*;
+import static io.restassured.RestAssured.*;
+import static org.junit.Assert.*;
 
 public class Post04Pojo extends RestfulBaseUrl {
 
