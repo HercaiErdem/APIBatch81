@@ -1,16 +1,13 @@
 package odev;
 
-import base_urls.ReqresBaseUrl;
-import io.restassured.http.ContentType;
-import io.restassured.response.Response;
-import org.junit.Test;
-import test_data.ReqresTestData;
-
-import java.util.HashMap;
-import java.util.Map;
-
-import static io.restassured.RestAssured.given;
-import static org.junit.Assert.assertEquals;
+import base_urls.*;
+import io.restassured.http.*;
+import io.restassured.response.*;
+import org.junit.*;
+import test_data.*;
+import java.util.*;
+import static io.restassured.RestAssured.*;
+import static org.junit.Assert.*;
 
 public class Alistirmalar02_WithMap extends ReqresBaseUrl {
 /*
