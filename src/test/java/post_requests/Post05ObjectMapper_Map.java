@@ -1,17 +1,15 @@
 package post_requests;
 
-import base_urls.JsonplaceholderBaseUrl;
-import io.restassured.http.ContentType;
-import io.restassured.response.Response;
-import org.codehaus.jackson.map.ObjectMapper;
-import org.junit.Test;
-import test_data.JsonPlaceHolderTestData;
-
-import java.io.IOException;
-import java.util.HashMap;
-
-import static io.restassured.RestAssured.given;
-import static org.junit.Assert.assertEquals;
+import base_urls.*;
+import io.restassured.http.*;
+import io.restassured.response.*;
+import org.codehaus.jackson.map.*;
+import org.junit.*;
+import test_data.*;
+import java.io.*;
+import java.util.*;
+import static io.restassured.RestAssured.*;
+import static org.junit.Assert.*;
 
 public class Post05ObjectMapper_Map extends JsonplaceholderBaseUrl {
 
