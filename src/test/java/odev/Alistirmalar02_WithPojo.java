@@ -1,14 +1,13 @@
 package odev;
 
-import base_urls.ReqresBaseUrl;
-import io.restassured.http.ContentType;
-import io.restassured.response.Response;
-import org.junit.Test;
-import pojos.ReqresPojo;
-import utils.ObjectMapperUtils;
-
-import static io.restassured.RestAssured.given;
-import static org.junit.Assert.assertEquals;
+import base_urls.*;
+import io.restassured.http.*;
+import io.restassured.response.*;
+import org.junit.*;
+import pojos.*;
+import utils.*;
+import static io.restassured.RestAssured.*;
+import static org.junit.Assert.*;
 
 public class Alistirmalar02_WithPojo extends ReqresBaseUrl {
     /*
