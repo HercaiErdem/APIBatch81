@@ -1,14 +1,11 @@
 package get_request;
 
-import base_urls.RestfulBaseUrl;
-import io.restassured.response.Response;
-import org.junit.Test;
-
-import java.util.HashMap;
-import java.util.Map;
-
+import base_urls.*;
+import io.restassured.response.*;
+import org.junit.*;
+import java.util.*;
 import static io.restassured.RestAssured.*;
-import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.*;
 
 public class Get09 extends RestfulBaseUrl {
     /*
