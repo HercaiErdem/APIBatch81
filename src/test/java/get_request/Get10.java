@@ -4,10 +4,8 @@ import base_urls.GoRestBaseUrl;
 import io.restassured.response.Response;
 import org.junit.Test;
 import test_data.GoRestTestData;
-
 import java.util.HashMap;
 import java.util.Map;
-
 import static io.restassured.RestAssured.*;
 import static org.junit.Assert.*;
 
