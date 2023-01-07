@@ -1,12 +1,11 @@
 package get_request;
 
-import base_urls.RestfulBaseUrl;
-import io.restassured.http.ContentType;
-import io.restassured.path.json.JsonPath;
-import io.restassured.response.Response;
-import org.junit.Test;
-import org.testng.asserts.SoftAssert;
-
+import base_urls.*;
+import io.restassured.http.*;
+import io.restassured.path.json.*;
+import io.restassured.response.*;
+import org.junit.*;
+import org.testng.asserts.*;
 import static io.restassured.RestAssured.*;
 import static junit.framework.TestCase.*;
 import static org.hamcrest.Matchers.*;
