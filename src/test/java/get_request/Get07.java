@@ -4,10 +4,7 @@ import base_urls.JsonplaceholderBaseUrl;
 import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
 import org.junit.Test;
-
-
 import java.util.List;
-
 import static io.restassured.RestAssured.*;
 import static junit.framework.TestCase.*;
 
