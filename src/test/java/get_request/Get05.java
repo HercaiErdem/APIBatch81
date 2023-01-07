@@ -1,12 +1,10 @@
 package get_request;
 
-import base_urls.RestfulBaseUrl;
-import io.restassured.response.Response;
-import org.junit.Test;
-
+import base_urls.*;
+import io.restassured.response.*;
+import org.junit.*;
 import static io.restassured.RestAssured.*;
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertTrue;
+import static org.junit.Assert.*;
 
 public class Get05 extends RestfulBaseUrl {
     /*
