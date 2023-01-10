@@ -44,7 +44,7 @@ public class BosClass extends GoRestBaseUrl {
 
         Map<String, Object> exDataMap = obje.outerMapOlusturMethodu(null, innerMap);
 
-        // Set the response
+        // Send the response
         Response response = given().spec(spec).when().get("{pp1}/{pp2}");
         response.prettyPrint();
 
