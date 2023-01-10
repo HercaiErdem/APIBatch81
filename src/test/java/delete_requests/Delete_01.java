@@ -1,14 +1,11 @@
 package delete_requests;
 
-import base_urls.JsonplaceholderBaseUrl;
-import io.restassured.response.Response;
-import org.junit.Test;
-import utils.ObjectMapperUtils;
-
-import java.util.HashMap;
-import java.util.Map;
-
-import static io.restassured.RestAssured.given;
+import base_urls.*;
+import io.restassured.response.*;
+import org.junit.*;
+import utils.*;
+import java.util.*;
+import static io.restassured.RestAssured.*;
 import static org.junit.Assert.*;
 
 public class Delete_01 extends JsonplaceholderBaseUrl {
