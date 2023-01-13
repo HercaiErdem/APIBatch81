@@ -25,6 +25,7 @@ public class Alistirmalar01 extends AutomationExerciseBaseURL {
    */
     @Test
     public void test01() {
+
         // Set the URL
         specAuto.pathParam("pp1", "brandsList");
         // Set the expected data
