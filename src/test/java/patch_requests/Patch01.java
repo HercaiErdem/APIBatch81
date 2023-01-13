@@ -18,8 +18,8 @@ public class Patch01 extends JsonplaceholderBaseUrl {
              "title": "Wash the dishes"
            }
     When
-I send PATCH Request to the Url
- Then
+         I send PATCH Request to the Url
+    Then
       Status code is 200
       And response body is like   {
                    "userId": 10,
@@ -27,7 +27,7 @@ I send PATCH Request to the Url
                    "completed": true,
                    "id": 198
                    }
- */
+       */
 
     JsonPlaceHolderTestData obje = new JsonPlaceHolderTestData();
 
