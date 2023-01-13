@@ -8,8 +8,8 @@ import java.util.*;
 import static io.restassured.RestAssured.*;
 import static org.junit.Assert.*;
 public class Alistirmalar01 extends AutomationExerciseBaseURL {
-    //1:
- /*
+
+  /*
         Given
             https://automationexercise.com/api/brandsList
         When
@@ -22,7 +22,7 @@ public class Alistirmalar01 extends AutomationExerciseBaseURL {
             Status Line should be HTTP/1.1 200 OK
         And
              Number of H&M brands must be equal to Polo(H&M marka sayısı Polo marka sayısına eşit olmalı)
-  */
+   */
     @Test
     public void test01() {
         // Set the URL
