@@ -11,6 +11,7 @@ import static io.restassured.RestAssured.*;
 import static org.junit.Assert.*;
 
 public class Post06 extends DummyRestApiBaseUrl {
+
     /*
        URL: https://dummy.restapiexample.com/api/v1/create
        HTTP Request Method: POST Request
