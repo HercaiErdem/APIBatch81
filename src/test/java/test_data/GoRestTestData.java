@@ -25,8 +25,8 @@ public class GoRestTestData {
 
     }
 }
-/*
-{
+        /*
+  {
     "meta": null,
     "data": {
         "id": 2986,
@@ -35,5 +35,5 @@ public class GoRestTestData {
         "gender": "male",
         "status": "inactive"
     }
-}
- */
+ }
+    */
