@@ -5,6 +5,7 @@ import io.restassured.http.*;
 import io.restassured.response.*;
 import org.junit.*;
 import test_data.*;
+
 import java.util.*;
 
 import static io.restassured.RestAssured.*;
@@ -21,7 +22,7 @@ public class Put01 extends JsonplaceholderBaseUrl {
              "completed": false
            }
     When
-I send PUT Request to the Url
+        I send PUT Request to the Url
  Then
       Status code is 200
       And response body is like   {
@@ -29,7 +30,7 @@ I send PUT Request to the Url
                    "title": "Wash the dishes",
                    "completed": false
                   }
- */
+  */
 
     @Test
     public void put01() {
