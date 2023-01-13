@@ -13,6 +13,5 @@ public class ReqresTestData {
 
         return createdDataMap;
     }
-
 }
 
