@@ -9,6 +9,7 @@ import static io.restassured.RestAssured.*;
 import static org.junit.Assert.*;
 
 public class Delete_01 extends JsonplaceholderBaseUrl {
+
     /*
         Given
             https://jsonplaceholder.typicode.com/todos/198

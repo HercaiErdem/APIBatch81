@@ -9,6 +9,7 @@ import static io.restassured.RestAssured.*;
 import static org.junit.Assert.*;
 
 public class Delete02 extends DummyRestApiBaseUrl {
+
     /*
      URL: https://dummy.restapiexample.com/api/v1/delete/2
      HTTP Request Method: DELETE Request
